@@ -1,1 +1,7 @@
-Sample dropwizard project that packages to a .deb file
+DiscoveryDiary
+==============
+
+Sample dropwizard application for use in agile drills
+
+---
+Will publish to a .deb package.
