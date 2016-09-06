@@ -9,16 +9,14 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-/**
- * Created by christopherg on 08/07/2016.
- */
 @Path("")
 public class HomeResource {
+
     @GET
     @Timed
-    @Path("")
     @Produces(MediaType.TEXT_HTML)
-    public View Index(){
+    public View Index() {
         return new Index();
     }
+
 }
